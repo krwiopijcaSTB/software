@@ -3,7 +3,7 @@ klasy:          header, logo, user_menu, container, element, choice, icons, icon
                 accounts_sheet, email, accounts_informations, id, name, status, city,
                 login,
 id:             nick, first_element, second_element, third_element, fourth_element,
-                login_panel, login_button, 
+                login_panel, login_button, login, password,
 */
 
 
@@ -345,13 +345,14 @@ div.accounts_informations span.city{
 
 #login_panel{
     width: 600px;
-    height: 200px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 15%;
-    margin-bottom: 15%;
+    height: 185px;
+    margin: 15% auto;
     background-color: #3da2d7;
     border-radius: 5px;
+}
+
+.login label{
+    font-size: 13px;
 }
 
 div.login{
@@ -367,7 +368,7 @@ div.login input{
     height: 23px;
     margin-left: 50px;
     margin-right: 50px;
-    border: 0px;
+    border: 0;
     border-radius: 2px;
     padding: 3px;
 }
