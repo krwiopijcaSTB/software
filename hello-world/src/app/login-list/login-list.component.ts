@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
     <div class="header">
       <!--Logo-->
       <div class="logo">
-        <img src="../../images/logo.png" alt="logo">
+        <img src="../../assets/images/logo.png" alt="logo">
       </div>
       <!--Koniec loga-->
     </div>
