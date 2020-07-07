@@ -1,9 +1,13 @@
 /*Zajęte:
 klasy:          header, logo, user_menu, container, element, choice, icons, icon_size,
                 accounts_sheet, email, accounts_informations, id, name, status, city,
-                login,
+                login, table*
 id:             nick, first_element, second_element, third_element, fourth_element,
                 login_panel, login_button, login, password,
+
+
+*z zewnętrznego arkusza stylów
+
 */
 
 
@@ -141,6 +145,7 @@ div.container{
     height: auto;
     margin-left: auto;
     margin-right: auto;
+    padding-bottom: 100px;
 }
 
 div.element{
@@ -170,7 +175,7 @@ div.element span{
 
 div.icon_size{     /*1możliwość*/
     width: 100px;
-    height: 43px;
+    height: 72px;
     padding-top: 5px;
     padding-bottom: 25px;
     text-align: center;
@@ -258,9 +263,9 @@ div.icon_size img{
 }*/
 
 /*Koniec ułożenia ikonek na stronie po przeniesieniu na podstronę*/
-/*Rozmieszczenie treści arkusza kont*/
+/*Rozmieszczenie treści starego arkusza kont*/
 
-div.accounts_sheet{
+/*div.accounts_sheet{
     max-width: 1200px;
     min-width: 400px;
     margin-left: auto;
@@ -336,11 +341,49 @@ div.accounts_informations span.status{
 
 div.accounts_informations span.city{
     width: 120px;
+}*/
+
+
+
+/*Koniec rozmieszczenie treści starego arkusza kont*/
+/*Rozmieszczenie nowego arkusza kont*/
+
+div.email{
+    width: 100%;
+    height: 60px;
+    float: left;
+    clear: left;
+    margin-bottom: 15px;
 }
 
+div.email span{
+    font-size: 14px;
+    padding-top: 5px;
+    margin-left: 15px;
+    float: left;
+}
 
+div.email input{
+    width: 200px;
+    height: 25px;
+    margin-left: 15px;
+    float: left;
+    clear: left;
+    border: 1px solid black;
+    border-radius: 3px;
+}
 
-/*Koniec rozmieszczenie treści arkusza kont*/
+div.email button{
+    width: 75px;
+    height: 25px;
+    float: left;
+    margin-left: 2px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 3px;
+}
+
+/*Koniec rozmieszczenia nowego arkusza kont*/
 /*Panel logowania*/
 
 

@@ -2,6 +2,7 @@
 <html lang="pl-PL">
     <meta charset="UTF-8">
 <head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
     <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
     <title>Accounts</title>
@@ -17,7 +18,7 @@
         <!--Menu rozwijane-->
         <div class="user_menu">
             <ul id="nick">
-                <li><p><img src="./images/tors.png"> Nick <img src="./images/strzalka.png"></p>
+                <li><p><img src="./images/ludek.png"> Nick <img src="./images/strzalka.png"></p>
                     <ul class="choice">
                         <li style="border-top: 0px"><a href="">Zmień hasło</a></li>
                         <li><a href="">Aktywne sesje</a></li>
@@ -86,6 +87,7 @@
         </div>
     </div>
     <!--Koniec rozmieszczenia ikonek na stronie-->
+    <!--                Stara tabelka z rozmieszczeniem treści
     <div class="accounts_sheet">
         <div class="email">
             <span>Email</span>
@@ -110,6 +112,7 @@
             <span class="status">Spóźniony</span>
             <span class="city">Kraków</span>
         </div>
+        -->
 
         <!--Żeby dodać kolejny rząd informacji trzeba to wypełnić w miejscu znaków "="
          i wkleić tutaj
@@ -125,8 +128,48 @@
         
         
         -->
-        
 
-    </div>
+
+     <div class="container">
+         <div class="email">
+             <span>Email</span>
+             <input type="text" name="email" value="">
+             <button type="button" name="szukaj">Szukaj</button>
+         </div>
+         <br>
+         <table class="table">
+             <thead>
+             <tr>
+                 <th scope="col">ID</th>
+                 <th scope="col">Nazwa</th>
+                 <th scope="col">Status</th>
+                 <th scope="col">Miasto</th>
+             </tr>
+             </thead>
+             <tbody>
+             <tr>
+                 <th scope="row">320</th>
+                 <td>SoftwareService</td>
+                 <td>Nowy</td>
+                 <td>Warszawa</td>
+             </tr>
+             <tr>
+                 <th scope="row">321</th>
+                 <td>Allegro</td>
+                 <td>Spóźniony</td>
+                 <td>Kraków</td>
+             </tr>
+             <!--   żeby dodać wiersz do tabeli uzupełnić
+                    miejsca zaznaczone znakami"="
+             <tr>
+                 <th scope="row">=======</th>
+                 <td>========</td>
+                 <td>========</td>
+                 <td>========</td>
+             </tr>
+             -->
+             </tbody>
+         </table>
+     </div>
 </body>
 </html>
