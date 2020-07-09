@@ -1,3 +1,69 @@
+/*Nagłówek*/
+/**{
+    font-family: 'Lato', sans-serif;
+}
+
+
+
+
+div.left_menu{
+    min-width: 150px;
+    max-width: 300px;
+    background-color: #3da2d7;
+    float: left;
+}
+
+
+
+
+div.header{
+    max-width: 1200px;
+    min-width: 400px;
+    height: 75px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div.logo{
+    float: left;
+    width: 163px;
+    height: 52px;
+    margin: 10px;
+}
+
+div.user_menu{
+    position: relative;
+    display: block;
+    float: right;
+    width: 250px;
+    height: 50px;
+    margin: 10px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+button.dropdown-toggle{
+    background-color: white;
+    border: 10px;
+}*/
+/*Koniec nagłówka*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*Zajęte:
 klasy:          header, logo, user_menu, container, element, choice, icons, icon_size,
                 accounts_sheet, email, accounts_informations, id, name, status, city,
@@ -41,6 +107,7 @@ div.user_menu{
     height: 50px;
     margin: 10px;
     text-align: center;
+    margin-top: 30px;
 }
 
 ul{
@@ -112,9 +179,18 @@ a:active{
 
 }
 
+
+
+/*Do menu z zewnętrznego arkusza stylów*/
+
+button.dropdown-toggle{
+    background-color: white;
+    border: 10px;
+}
+
 /*Koniec menu rozwijanego*/
 /*Elementy na stronie*/
-    /*Kolory kafelek*/
+/*Kolory kafelek*/
 
 #first_element{
     background-color: #3da2d7;
@@ -136,8 +212,8 @@ a:active{
     border-color: #e34e55;
 }
 
-    /*Koniec kolorów kafelek*/
-    /*Pozycjonowanie kafelek w kontynerze*/
+/*Koniec kolorów kafelek*/
+/*Pozycjonowanie kafelek w kontynerze*/
 
 div.container{
     max-width: 1200px;
@@ -298,7 +374,7 @@ div.accounts_sheet div.email input{
     height: 17px;
     margin-left: 15px;
     float: left;
-    clear: left; 
+    clear: left;
 }
 
 div.accounts_sheet div.email button{
@@ -352,7 +428,6 @@ div.email{
     width: 100%;
     height: 60px;
     float: left;
-    clear: left;
     margin-bottom: 15px;
 }
 
@@ -429,3 +504,11 @@ div.login label{
     margin-right: 44px;
 }
 /*Koniec panelu logowania*/
+
+
+div.left_menu{
+    min-width: 150px;
+    max-width: 300px;
+    background-color: #3da2d7;
+    float: left;
+}
