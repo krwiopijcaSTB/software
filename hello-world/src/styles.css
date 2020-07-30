@@ -171,3 +171,11 @@ div.col-md-6{
   margin-top: -25px;
 }
 /*Koniec panelu logowania*/
+/*Zakładki z informacjami o koncie*/
+
+#form_data{
+  width: 100%;
+  height: auto;
+}
+
+/*Koniec zakładek z informacjami o koncie*/
