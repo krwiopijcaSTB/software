@@ -1,0 +1,58 @@
+*{
+  font-family: 'Lato', sans-serif;
+}
+
+body{
+  margin: 0;
+}
+
+#form{
+  float: left;
+  clear: left;
+  margin-top: 10px;
+}
+
+.button{
+  width: auto;
+  height: auto;
+  background-color: white;
+  border: 1px solid black;
+  font-size: 18px;
+  border-radius: 2px;
+}
+
+.button_list{
+  float: left;
+  border-radius: 0;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
+table tr td label{
+  margin-left: 10px;
+}
+
+input{
+  border: 1px solid black;
+  border-radius: 2px;
+}
+
+h1{
+  font-size: 32px;
+  margin-top: 10px;
+}
+
+h2{
+  font-size: 26px;
+}
+
+.change_button{
+  margin-bottom: 6px;
+}
+
+td{
+  width: 225px;
+}

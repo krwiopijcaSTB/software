@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-accounts-list',
+  selector: 'app-customers-list',
   template: `
     <!--Nagłówek-->
     <div class="header">
@@ -29,7 +29,6 @@ import { Component, OnInit } from '@angular/core';
         </div>
       </div>
       <!--Koniec menu rozwijanego-->
-
     </div>
     <div>
       <hr>
@@ -39,11 +38,13 @@ import { Component, OnInit } from '@angular/core';
       <div class="left_menu">
         <ul class="nav flex-column">
           <li class="nav-item">
-            <a routerLink="/customers" class="nav-link active">
-              <svg width="1.1em" height="1.1em" viewBox="0 0 16 16" class="bi bi-person" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                <path fill-rule="evenodd" d="M13 14s1 0 1-1-1-4-6-4-6 3-6 4 1 1 1 1h10zm-9.995-.944v-.002.002zM3.022 13h9.956a.274.274 0 0 0 .014-.002l.008-.002c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664a1.05 1.05 0 0 0 .022.004zm9.974.056v-.002.002zM8 7a2 2 0 1 0 0-4 2 2 0 0 0 0 4zm3-2a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/>
-              </svg> Customers
-            </a>
+            <b>
+              <a routerLink="/customers" class="nav-link active" href="#">
+                <svg width="1.1em" height="1.1em" viewBox="0 0 16 16" class="bi bi-person" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" d="M13 14s1 0 1-1-1-4-6-4-6 3-6 4 1 1 1 1h10zm-9.995-.944v-.002.002zM3.022 13h9.956a.274.274 0 0 0 .014-.002l.008-.002c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664a1.05 1.05 0 0 0 .022.004zm9.974.056v-.002.002zM8 7a2 2 0 1 0 0-4 2 2 0 0 0 0 4zm3-2a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/>
+                </svg> Customers
+              </a>
+            </b>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">
@@ -104,53 +105,21 @@ import { Component, OnInit } from '@angular/core';
           </li>
         </ul>
       </div>
-      <div class="container-fluid">
-        <div class="email">
-          <span>Email</span>
-          <input type="text" name="email" value="">
-          <button type="button" name="szukaj">Szukaj</button>
-        </div>
-        <br>
-        <table class="table">
-          <thead>
-          <tr>
-            <th scope="col">ID</th>
-            <th scope="col">Nazwa</th>
-            <th scope="col">Status</th>
-            <th scope="col">Miasto</th>
-          </tr>
-          </thead>
-          <tbody>
-          <tr>
-            <th scope="row">320</th>
-            <td>SoftwareService</td>
-            <td>Nowy</td>
-            <td>Warszawa</td>
-          </tr>
-          <tr>
-            <th scope="row">321</th>
-            <td>Allegro</td>
-            <td>Spóźniony</td>
-            <td>Kraków</td>
-          </tr>
-          <!--   żeby dodać wiersz do tabeli uzupełnić
-                 miejsca zaznaczone znakami"="
-          <tr>
-              <th scope="row">=======</th>
-              <td>========</td>
-              <td>========</td>
-              <td>========</td>
-          </tr>
-          -->
-          </tbody>
-        </table>
+
+
+
+
+
+
+      <div id="form_data">
+        <app-form-editor></app-form-editor>
       </div>
-    </div>
+
   `,
   styles: [
   ]
 })
-export class AccountsListComponent implements OnInit {
+export class CustomersListComponent implements OnInit {
 
   constructor() { }
 
